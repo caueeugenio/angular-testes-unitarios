@@ -1,0 +1,10 @@
+
+<label>Poupanca<input id="inputPoupanca" type="text" #valorPoupanca></label>
+<span id="getPoupanca" style="color:green;">{{getPoupanca}} </span>
+<button id="sacarBtn" (click)="setSacar(valorPoupanca.value)">Sacar</button>
+<br>
+<br>
+<label>Banco<input id="inputBanco" type="text" #valorBanco></label>
+<span  style="color:green;"> <span id="getBanco">{{getBanco}}</span> </span>
+<button id="depositarBtn" (click)="setDepositar(valorBanco.value)">Depositar</button>
+<app-list></app-list>
